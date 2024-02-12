@@ -1,0 +1,55 @@
+/* Home.css */
+
+.home-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url('https://pngtree.com/freebackground/doctor-medical-health-smart-technology-banner-background_1497812.html');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .floating-card {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    margin-left: 350px;
+    margin-right: 500px;
+    transform: translateY(-50%);
+  }
+  
+  .doctor-card {
+    left: 20px;
+   
+  }
+  
+  .patient-card {
+    right: 20px;
+   
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
