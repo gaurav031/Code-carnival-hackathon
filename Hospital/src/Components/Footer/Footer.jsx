@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <footer className="bg-blue-200 border-y">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <footer className="bg-blue-200 border-y" >
+            <div className="mx-auto w-full max-w-screen-xl p-2 py-4 lg:py-8 ">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
@@ -54,7 +54,7 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
                         <a href="" className="hover:underline">
-                           Gauarv Kumar
+                           MediLync
                         </a>
                         . All Rights Reserved.
                     </span>
