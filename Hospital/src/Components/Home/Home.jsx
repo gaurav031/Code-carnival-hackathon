@@ -1,24 +1,10 @@
 import React from "react";
 import "./Styles.css"; // Make sure to import your CSS file
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="wrapper">
-      <div className="nav">
-        <div className="logo">
-          <h4>MedyLink</h4>
-        </div>
-        <div className="links">
-          <a href="#" className="mainlink">
-            Home
-          </a>
-          <a href="#">Help</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
-
       {/* LANDING PAGE */}
       <div className="landing">
         <div className="home-container">
@@ -51,7 +37,7 @@ const Home = () => {
           <h1>
             Why is it important that <br />{" "}
             <span style={{ color: "#2f8be0", fontSize: "3vw" }}>
-              You Stay Home?
+              To Apply Health-Card?
             </span>{" "}
           </h1>
           <img src=".\Images\DocWom.png" alt="" />
@@ -91,10 +77,7 @@ const Home = () => {
       {/* INFO SECTION */}
       <div className="infoSection">
         <div className="infoHeader" data-aos="fade-up" data-aos-duration="1000">
-          <h1>
-            Things you could do during the <br />{" "}
-            <span style={{ color: "#e0501b" }}>Coronavirus Quarantine.</span>{" "}
-          </h1>
+          <h1 style={{ color: "#e0501b" }}>Health Card Benefits: </h1>
         </div>
         <div className="infoCards">
           <div className="card one" data-aos="fade-up" data-aos-duration="1000">
@@ -107,16 +90,17 @@ const Home = () => {
             />
             <div className="cardbgone"></div>
             <div className="cardContent">
-              <h2>Binge Watch</h2>
+              <h2>Doctor Detail</h2>
               <p>
-                Binge-watch all your favorite TV Shows or Movies during this
-                Quarantine!
+                All Your Doctor Information is save here...
+                 "Meet Our Expert
+                Physicians: Your Trusted Team for Exceptional Care"
               </p>
-              <a href="#">
+              <Link to="#">
                 <div className="cardBtn">
                   <img src="./Images/next.png" alt="" className="cardIcon" />
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="card two" data-aos="fade-up" data-aos-duration="1300">
@@ -129,10 +113,10 @@ const Home = () => {
             />
             <div className="cardbgtwo"></div>
             <div className="cardContent">
-              <h2>Learn a New Skill</h2>
+              <h2>Get Your Heath Detail</h2>
               <p>
-                Try a new recipe, Write a blog or Learn a new language this
-                Quarantine!
+                "Securely Share Your Information: Provide Your Details for
+                Personalized Care and Medical Assistance"
               </p>
               <a href="#">
                 <div className="cardBtn">
@@ -155,9 +139,10 @@ const Home = () => {
             />
             <div className="cardbgone"></div>
             <div className="cardContent">
-              <h2>Video Call</h2>
+              <h2>Call a Doctor</h2>
               <p>
-                Have fun video calling your friends or family this Quarantine!
+                "Connect with Your Doctor Anytime, Anywhere: Experience the
+                Future of Healthcare with Video Consultations"
               </p>
               <a href="#">
                 <div className="cardBtn">
@@ -170,34 +155,7 @@ const Home = () => {
       </div>
 
       {/* BANNER AND FOOTER */}
-      <div className="banner">
-        <div
-          className="bannerText"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          <h1>
-            Download the MediLync App Today. <br />{" "}
-            <span
-              style={{ fontSize: "1.6vw", fontWeight: "normal" }}
-              className="bannerInnerText"
-            >
-              Stay Updated and get all your medical needs taken care of!
-            </span>{" "}
-          </h1>
-          <a href="#">
-            {" "}
-            <img src="img/AndroidPNG.png" alt="" />{" "}
-          </a>
-          <a href="#">
-            {" "}
-            <img src="img/iosPNG.png" alt="" />{" "}
-          </a>
-        </div>
-        <div className="bannerImg" data-aos="fade-up" data-aos-duration="1000">
-          <img src="img/MobileApp.png" alt="" />
-        </div>
-      </div>
+      <div className="banner"></div>
     </div>
   );
 };
