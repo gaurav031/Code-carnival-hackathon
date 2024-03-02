@@ -1,0 +1,12 @@
+.card-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.card-div {
+  height: 400px;
+  width: 500px;
+  margin: 200px;
+  margin-top: 20px;
+}

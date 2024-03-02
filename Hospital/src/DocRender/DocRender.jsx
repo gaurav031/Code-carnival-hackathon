@@ -3,7 +3,6 @@ import Profile from "../Components/DoctorDashBoard/Profile";
 import Sidebar from "../Components/DoctorDashBoard/Sidebar";
 function DocRender(){
     return(
-        <>
         <div className="dashboard">
             <Sidebar />
             <div  className="dashboard--content">
@@ -11,7 +10,6 @@ function DocRender(){
               <Profile />
             </div>
         </div>
-        </>
     )
-}
+};
 export default  DocRender;

@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileHadder from "./ProfileHadder";
-import "./styles/profile.css";
+import "../styles/profile.css";
 import { BiBook } from "react-icons/bi";
 import data from "../../data.json"; 
 const Profile = () => {

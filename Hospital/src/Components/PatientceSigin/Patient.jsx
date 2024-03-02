@@ -1,12 +1,13 @@
+// Import necessary modules and components
 import React from "react";
 import { useState } from "react";
-import * as Components from "./Doctor.js";
-import { NavLink, Link ,} from "react-router-dom";
+import * as Components from "./Patient.js";
+import { NavLink, Link ,useNavigate} from "react-router-dom";
 
 // Main component function
-export default function Doctor() {
+export default function Patient() {
   // State variables
-
+  const history = useNavigate();
   const [signIn, toggle] = React.useState(true);
   const [id, setId] = useState("");
   const [doctorname, setDoctorName] = useState("");
@@ -17,10 +18,9 @@ export default function Doctor() {
   const [password, setPassword] = useState("");
   const [conpassword, setConpassword] = useState("");
   const [errors, setErrors] = useState({});
-  const [isFormSubmitted, setIsFormSubmitted] = useState("");
-  const [error, setError] = useState(""); // Add this line
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
-  
+  // Form validation function
   const validateForm = () => {
     const newErrors = {};
 
@@ -44,7 +44,7 @@ export default function Doctor() {
 
     return Object.keys(newErrors).length === 0;
   };
-
+  
   const handleLogin = () => {
     // Check if email and password are the same (for demonstration purposes)
     if (email == "gaurav@gmail.com" && password == "G@u12345") {
@@ -57,7 +57,7 @@ export default function Doctor() {
   const handleFormSubmit = () => {
     history.push("/doc");
   };
-
+  
   return (
     // Creating Account
     <Components.Container>
@@ -66,22 +66,15 @@ export default function Doctor() {
           <Components.Title>Create Account</Components.Title>
           <Components.Input
             type="text"
-            placeholder="Doctor Id"
+            placeholder="Patient Id"
             onChange={(e) => setId(e.target.value)}
             required
           />
 
           <Components.Input
             type="text"
-            placeholder="Doctor Name"
+            placeholder="Patient Name"
             onChange={(e) => setDoctorName(e.target.value)}
-            required
-          />
-
-          <Components.Input
-            type="text"
-            placeholder="Hospital Name"
-            onChange={(e) => setHospitalName(e.target.value)}
             required
           />
 
@@ -134,25 +127,25 @@ export default function Doctor() {
 
       <Components.SignInContainer signinIn={signIn}>
         <Components.Form>
-          <Components.Title>Doctor Login</Components.Title>
+          <Components.Title>Patient Login</Components.Title>
           <Components.Input
             type="email"
-            placeholder="Doctor Email"
+            placeholder="Patient Email"
             style={{ marginBottom: "10px" }}
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
           />
           <Components.Input
             type="password"
             placeholder="Password"
             style={{ marginBottom: "10px" }}
-            value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
           <Components.Anchor href="#">Forgot your password?</Components.Anchor>
-          <Link to={"/doc"}>
-            <Components.Button onClick={handleLogin}>Sign In</Components.Button>
-         </Link>
+<Link to={'/pat'} >
+          <Components.Button onClick={handleLogin}>Sign In</Components.Button>
+          </Link>
         </Components.Form>
       </Components.SignInContainer>
 
@@ -169,7 +162,7 @@ export default function Doctor() {
           </Components.LeftOverlayPanel>
 
           <Components.RightOverlayPanel signinIn={signIn}>
-            <Components.Title>Hello Doctor!</Components.Title>
+            <Components.Title>Hello Dear!</Components.Title>
             <Components.Paragraph>
               Please Enter Your personal details and start journey with us
             </Components.Paragraph>

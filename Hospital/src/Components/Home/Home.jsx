@@ -1,6 +1,7 @@
 import React from "react";
 import "./Styles.css"; // Make sure to import your CSS file
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -31,7 +32,9 @@ const Home = () => {
             </div>
             <div className="floating-card patient-card">
               <h2>Sign in for Patient</h2>
-              <button>Sign In</button>
+              <Link to="/patient">
+                <button>Sign In</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/medicineDetailPage.css";
+import "../styles/medicineDetailPage.css";
 
 import medicineData from "../medicine.json";
 

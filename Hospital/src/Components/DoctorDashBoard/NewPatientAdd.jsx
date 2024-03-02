@@ -1,4 +1,4 @@
-import "./styles/newPatientAdd.css";
+import "../styles/newPatientAdd.css";
 import React, { useState } from "react";
 import patientdata from "../../patient.json";
 const NewPatientAdd = () => {

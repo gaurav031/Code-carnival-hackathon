@@ -8,23 +8,18 @@ import {
 } from "react-icons/bi";
 import { RiLogoutBoxFill } from "react-icons/ri";
 import "../styles/sidebar.css";
-function Sidebar() {
+function PatientSlide() {
   return (
     <div className="menu">
       <div className="logo">
         <FaUserDoctor className="logo-icon" />
-        <h2>Doctor</h2>
+        <h2>Patient</h2>
       </div>
 
       <div className="menu--list">
-        <NavLink to={"patientrecodrd"} className="item">
+        <NavLink to={"doctordetail"} className="item">
           <BiSolidUserDetail className="icon" />
-          Patient Recodrd
-        </NavLink>
-
-        <NavLink to={"addnewpatient"} className="item">
-          <AiOutlineUserAdd className="icon" />
-          Add New Patient
+          Patient Record
         </NavLink>
 
         <NavLink to={"medicinedetail"} className="item">
@@ -32,9 +27,9 @@ function Sidebar() {
           Medicne Detail
         </NavLink>
 
-        <NavLink to={"doctordetail"} className="item">
+        <NavLink to={"patientrecodrd"} className="item">
           <BiMessageSquareDetail className="icon" />
-          Docter Detail
+          Patient Detail
         </NavLink>
 
         <NavLink to={"sinout"} className="item">
@@ -46,4 +41,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default PatientSlide;
