@@ -1,0 +1,342 @@
+/* Home.css */
+
+
+
+
+
+html,
+body {
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+* {
+    text-decoration: none !important;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .links a {
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav .links .mainlink {
+    color: #e0501b;
+}
+
+.nav h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+/* LANDING CSS */
+/* SignIn AND SignUp */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .background-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .floating-card {
+    border-radius: 10px;
+    padding: 20px;
+    
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: transparent; /* Change background color to transparent */
+    color: #007bff; /* Set text color */
+    border: 1px solid #007bff; /* Add border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for background color and text color */
+  }
+  
+  button:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  /* SignIn */
+  
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    height: 100vh;
+}
+
+.landingText h1 {
+    font-size: 6vw;
+    margin: 0;
+}
+
+.landingText h3 {
+    margin: 6px 0;
+    font-size: 20px;
+    opacity: 0.3;
+    line-height: 30px;
+}
+
+.landingText .btn {
+    width: 120px;
+    margin-top: 30px;
+    padding: 14px 20px;
+    background-color: #2f8be0;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.landingText .btn a {
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+.landingImage img {
+    width: 28vw;
+}
+/* LANDING CSS  End*/
+/* ABOUT CSS */
+
+.about {
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText {
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1 {
+    position: relative;
+    left: 110px;
+}
+
+.aboutText img {
+    width: 10vw;
+    position: absolute;
+    top: 50px;
+}
+
+.aboutList {
+    width: 77%;
+}
+
+ol {
+    list-style: none;
+    color: #e0501b;
+}
+
+ol li {
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p {
+    font-size: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span {
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/* INFO_SECTION CSS */
+
+.infoSection {
+    height: 600px;
+}
+
+.infoHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.infoCards .card {
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.infoCards .one .cardoneImg {
+    width: 180px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.infoCards .two .cardtwoImg {
+    width: 158px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.infoCards .three .cardthreeImg {
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.cardbgone {
+    height: 150px;
+    background-color: #ffce63;
+}
+
+.cardbgtwo {
+    height: 150px;
+    background-color: #a1cdff;
+}
+
+.cardContent {
+    padding: 0 20px;
+}
+
+.cardContent h2 {
+    font-weight: 600;
+}
+
+.cardContent p {
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.cardContent .cardBtn {
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover {
+    background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+
+/* Banner */
+
+.banner {
+    height: 400px;
+    background-color: #ffce63;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerText h1 {
+    font-size: 3vw;
+    color: #000;
+    font-weight: 600;
+}
+
+.bannerText img {
+    width: 10vw;
+    margin-right: 20px;
+}
+
+.bannerImg img {
+    width: 20vw;
+}
+
+/* FOOTER CSS */
+
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(199, 236, 241);
+}
+
+.footerlinks a {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.footerlinks .mainlink {
+    color: #e0501b;
+}
