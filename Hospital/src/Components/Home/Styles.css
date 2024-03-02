@@ -73,9 +73,13 @@ body {
     border: 1px solid #ced4da; 
     margin: 20px;
     background-color: #fff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.1); 
   }
-  
+  .floating-card:hover {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+
+  }
+
   h2 {
     font-size: 24px;
     font-weight: bold;
