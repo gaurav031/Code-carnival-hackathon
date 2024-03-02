@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "name": "Medication A",
+    "type": "Type A",
+    "dosage": "100 mg",
+    "manufacturer": "Manufacturer A",
+    "price": "19.98"
+  },
+  {
+    "id": "2",
+    "name": "Medication B",
+    "type": "Type B",
+    "dosage": "50 mg",
+    "manufacturer": "Manufacturer B",
+    "price": "16.98"
+  },
+  {
+    "id": "3",
+    "name": "Medication C",
+    "type": "Type C",
+    "dosage": "200 mg",
+    "manufacturer": "Manufacturer C",
+    "price": "29.98"
+  },
+  {
+    "id": "4",
+    "name": "Medication D",
+    "type": "Type D",
+    "dosage": "75 mg",
+    "manufacturer": "Manufacturer D",
+    "price": "22.5"
+  },
+  {
+    "id": "5",
+    "name": "Medication E",
+    "type": "Type E",
+    "dosage": "150 mg",
+    "manufacturer": "Manufacturer E",
+    "price": "35.98"
+  },
+  {
+    "id": "6",
+    "name": "Medication F",
+    "type": "Type F",
+    "dosage": "120 mg",
+    "manufacturer": "Manufacturer F",
+    "price": "27.5"
+  },
+  {
+    "id": "7",
+    "name": "Medication G",
+    "type": "Type G",
+    "dosage": "180 mg",
+    "manufacturer": "Manufacturer G",
+    "price": "39.98"
+  },
+  {
+    "id": "8",
+    "name": "Medication H",
+    "type": "Type H",
+    "dosage": "90 mg",
+    "manufacturer": "Manufacturer H",
+    "price": "21.98"
+  },
+  {
+    "id": "9",
+    "name": "Medication I",
+    "type": "Type I",
+    "dosage": "250 mg",
+    "manufacturer": "Manufacturer I",
+    "price": "45.98"
+  },
+  {
+    "id": "10",
+    "name": "Medication J",
+    "type": "Type J",
+    "dosage": "60 mg",
+    "manufacturer": "Manufacturer J",
+    "price": "31.98"
+  },
+  {
+    "id": "11",
+    "name": "Medication K",
+    "type": "Type K",
+    "dosage": "300 mg",
+    "manufacturer": "Manufacturer K",
+    "price": "49.98"
+  },
+  {
+    "id": "12",
+    "name": "Medication L",
+    "type": "Type L",
+    "dosage": "80 mg",
+    "manufacturer": "Manufacturer L",
+    "price": "24.98"
+  },
+  {
+    "id": "13",
+    "name": "Medication M",
+    "type": "Type M",
+    "dosage": "100 mg",
+    "manufacturer": "Manufacturer M",
+    "price": "19.98"
+  },
+  {
+    "id": "14",
+    "name": "Medication N",
+    "type": "Type N",
+    "dosage": "50 mg",
+    "manufacturer": "Manufacturer N",
+    "price": "16.98"
+  },
+  {
+    "id": "15",
+    "name": "Medication O",
+    "type": "Type O",
+    "dosage": "200 mg",
+    "manufacturer": "Manufacturer O",
+    "price": "29.98"
+  },
+  {
+    "id": "16",
+    "name": "Medication P",
+    "type": "Type P",
+    "dosage": "75 mg",
+    "manufacturer": "Manufacturer P",
+    "price": "22.5"
+  },
+  {
+    "id": "17",
+    "name": "Medication Q",
+    "type": "Type Q",
+    "dosage": "150 mg",
+    "manufacturer": "Manufacturer Q",
+    "price": "35.98"
+  },
+  {
+    "id": "18",
+    "name": "Medication R",
+    "type": "Type R",
+    "dosage": "120 mg",
+    "manufacturer": "Manufacturer R",
+    "price": "27.5"
+  },
+  {
+    "id": "19",
+    "name": "Medication S",
+    "type": "Type S",
+    "dosage": "180 mg",
+    "manufacturer": "Manufacturer S",
+    "price": "39.98"
+  },
+  {
+    "id": "20",
+    "name": "Medication T",
+    "type": "Type T",
+    "dosage": "90 mg",
+    "manufacturer": "Manufacturer T",
+    "price": "21.98"
+  }
+]

@@ -1,0 +1,10 @@
+.medicine-detail-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  color: #333;
+}
