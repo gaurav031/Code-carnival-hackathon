@@ -29,7 +29,7 @@ function PatientSlide() {
 
         <NavLink to={"patientrecodrd"} className="item">
           <BiMessageSquareDetail className="icon" />
-          Patient Detail
+          Your Health Card
         </NavLink>
 
         <NavLink to={"sinout"} className="item">
