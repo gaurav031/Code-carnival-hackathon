@@ -5,7 +5,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    margin: 20px auto; 
+    margin: 90px auto; 
     max-width: 678px; 
     width: 90%; 
     min-height: 580px;
