@@ -16,7 +16,7 @@ const Home = () => {
               </NavLink>
             </div>
             <div className="floating-card patient-card">
-              <h2>Sign in for Patient</h2>
+              <h2>Sign in for Patients</h2>
               <button>Sign In</button>
             </div>
           </div>
