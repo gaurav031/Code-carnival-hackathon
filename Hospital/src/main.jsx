@@ -6,13 +6,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./Layout.jsx";
 import Home from "./Components/Home/Home.jsx";
-<<<<<<< HEAD
 import About from "./Components/About/About.jsx";
 import Contact from "./Components/Contact/Conatct.jsx";
-=======
 import About from "./Components/About/About.jsx"
 import Contact from "./Components/Contact/Contact.jsx"
->>>>>>> e5fe5bccf9523ac3588aac796f0fd92eab37f6f0
 import Doctor from "./Components/DoctorSigin/Doctor.jsx";
 import DocRender from "./DocRender/DocRender.jsx";
 import Patient from "./Components/PatientceSigin/Patient.jsx";
