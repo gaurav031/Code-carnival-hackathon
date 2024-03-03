@@ -7,8 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./Layout.jsx";
 import Home from "./Components/Home/Home.jsx";
 import About from "./Components/About/About.jsx";
-import Contact from "./Components/Contact/Conatct.jsx";
-import About from "./Components/About/About.jsx"
+//import Contact from "./Components/Contact/Conatct.jsx";
 import Contact from "./Components/Contact/Contact.jsx"
 import Doctor from "./Components/DoctorSigin/Doctor.jsx";
 import DocRender from "./DocRender/DocRender.jsx";
