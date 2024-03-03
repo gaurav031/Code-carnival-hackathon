@@ -1,9 +1,5 @@
 /* Home.css */
 
-
-
-
-
 html,
 body {
     background-color: #fff;
@@ -68,12 +64,22 @@ body {
   }
   
   .floating-card {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     border-radius: 10px;
     padding: 20px;
-    
+    border: 1px solid #ced4da; 
     margin: 20px;
+    background-color: #fff; 
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.1); 
   }
-  
+  .floating-card:hover {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+
+  }
+
   h2 {
     font-size: 24px;
     font-weight: bold;
@@ -81,20 +87,19 @@ body {
   }
   
   button {
-    background-color: transparent; /* Change background color to transparent */
-    color: #007bff; /* Set text color */
-    border: 1px solid #007bff; /* Add border */
+    color: #fff;
+    background-color: #007bff; 
+    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Add transition for background color and text color */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  button:hover {
+    background-color: #0056b3; 
   }
   
-  button:hover {
-    background-color: #007bff; /* Change background color on hover */
-    color: #fff; /* Change text color on hover */
-  }
-  /* SignIn */
+  /* SignIn end*/
   
 
 .landing {
@@ -270,8 +275,8 @@ li span {
     right: 20px;
     padding: 10px;
     background-color: #ededed;
-    width: 25px;
-    height: 20px;
+    width: 55px;
+    height: 30px;
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -289,33 +294,7 @@ li span {
     left: 0px;
     width: 16px;
 }
-
 /* Banner */
-
-.banner {
-    height: 400px;
-    background-color: #ffce63;
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.bannerText h1 {
-    font-size: 3vw;
-    color: #000;
-    font-weight: 600;
-}
-
-.bannerText img {
-    width: 10vw;
-    margin-right: 20px;
-}
-
-.bannerImg img {
-    width: 20vw;
-}
 
 /* FOOTER CSS */
 
@@ -325,9 +304,10 @@ li span {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    box-shadow: 0 10px 900px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgb(199, 236, 241);
+    background-color:#fff;
 }
 
 .footerlinks a {
